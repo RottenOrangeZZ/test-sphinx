@@ -1,0 +1,23 @@
+###################################
+sphinx お試し
+###################################
+
+| お試し
+
+===== ==========
+ID     VALUE
+===== ==========
+1     データ１
+2     データ２
+===== ==========
+
+.. seqdiag::
+    :desctable:
+
+    seqdiag {
+        A -> B[label = "test"];
+        B -> C[label = "test"];
+        A[description = "browsers in each client"];
+        B[description = "web server"];
+        C[description = "database server];
+    }
