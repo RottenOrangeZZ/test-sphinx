@@ -19,5 +19,5 @@ ID     VALUE
         B -> C[label = "test"];
         A[description = "browsers in each client"];
         B[description = "web server"];
-        C[description = "database server];
+        C[description = "database server"];
     }
